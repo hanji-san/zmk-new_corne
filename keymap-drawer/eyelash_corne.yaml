@@ -46,8 +46,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - LOWER
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', h: 'Ctl+$$mdi:backspace$$'}
   - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', h: 'Ctl+$$mdi:backspace$$'}
   - RAISE
   LOWER:
   - $$mdi:keyboard-esc$$
