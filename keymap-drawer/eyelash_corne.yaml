@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:arrow-down-bold$$
   - N
   - M
@@ -46,8 +46,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - LOWER
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', h: 'Ctl+$$mdi:backspace$$'}
+  - $$mdi:keyboard-space$$
   - RAISE
   LOWER:
   - $$mdi:keyboard-esc$$
@@ -95,8 +95,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', h: 'Ctl+$$mdi:backspace$$'}
+  - $$mdi:keyboard-space$$
   - RAISE
   RAISE:
   - $$mdi:keyboard-esc$$
@@ -144,8 +144,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: LOWER, type: held alternate}
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', h: 'Ctl+$$mdi:backspace$$'}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   Fn:
   - '&studio_unlock'
